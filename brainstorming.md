@@ -1,20 +1,58 @@
-brainstorming.md
-Group 13!!
 
-Initial Brainstorming Ideas
-Music Player: plays local and streamed music, with playlists, a queue, and a "now playing" screen with lock screen controls.
-Clothing Shopping App: browse clothing by category, size, and price, save favorites, and check out from a cart.
-Car Shopping App: browse new and used car listings, filter by make, model, year, price, and mileage, and compare cars side by side.
-Pet Dating App (Tinder for Dogs): dog owners make profiles for their pups and swipe on other dogs to find breeding matches nearby, then chat once both sides match.
-Concert Tickets App: discover upcoming concerts near you by artist, genre, or date, save events, and see ticket prices and venue details.
-Workout Tracker: log exercises, sets, and reps, track progress over time with charts, and save workout routines.
+# Group 13 - App Idea Brainstorming
 
-Evaluation of Top 3 Ideas
+## Initial Brainstorming Ideas
 
-Pet Dating App: This one is a lot of fun and fits a phone perfectly. You snap pics of your pup with the camera, swipe through dogs near you using location, and get a notification when it's a match. The idea is easy to explain: Tinder, but for dogs looking for a breeding partner. Dog owners and breeders are a solid audience, and they'd keep checking back for new matches and messages. The full Tinder experience is a lot, but if we focus on profiles, swiping, and matching first, it's very doable.
-Concert Tickets App: It's really useful, with nearby shows, alerts when tickets drop, and the venue on Maps. The Ticketmaster API also makes the data easy to get. The catch is that it's mostly browsing someone else's data, so there's less room for us to build our own cool features.
-Music Player: People would use it every day, and background playback with lock screen controls is neat. Competing with Spotify and Apple Music is rough, though, and licensing would limit us to local files or short previews.
+Our group considered six mobile app ideas:
 
-Final App Idea Chosen
+1. Music Player: An app for playing local or streamed music, creating playlists, managing a song queue, and controlling playback.
 
-We're going with the Pet Dating App, basically Tinder for dogs! Owners create a profile for their pup, swipe right or left on other dogs nearby, and can chat once it's a match. The core features are dog profiles with photos and info like breed, age, and size, the swipe card stack, matching, and a simple chat. Once those are working, we'd like to add filters by breed and distance, push notifications for new matches, and verification badges for breeders. We'll keep the interface clean and simple so swiping feels smooth and the dogs are the main focus.
+2. Clothing Shopping App: An app for browsing clothing by category, size, and price, saving favorite items, and purchasing products.
+
+3. Car Shopping App: An app for browsing new and used vehicles, filtering by make, model, year, price, and mileage, and comparing listings.
+
+4. Pet Dating App (PupMatch): An app where dog owners create profiles for their pets, browse nearby dogs, swipe to find potential breeding matches, and chat after mutual matches.
+
+5. Concert Tickets App: An app for discovering upcoming concerts, viewing ticket prices, finding venues, and saving favorite events.
+
+6. Workout Tracker: An app for recording exercises, sets, and repetitions, monitoring fitness progress, and saving workout routines.
+
+## Evaluation of Top Three Ideas
+
+### Idea 1: Pet Dating App (PupMatch)
+
+- Mobile: Perfect for smartphones because users can take photos of their dogs, swipe through nearby profiles, and communicate directly from their phones.
+- Story: Dog owners looking for compatible breeding partners often rely on social media groups or personal connections. PupMatch provides a centralized platform to simplify the process.
+- Market: Our target users are dog owners and small breeders interested in connecting with other owners.
+- Habit: Users may return regularly to discover new dogs, review matches, and respond to messages.
+- Scope: The core features include profile creation, swiping, mutual matching, and messaging. Additional features such as filters and notifications can be developed later.
+
+### Idea 2: Concert Tickets App
+
+- Mobile: Smartphones are convenient for discovering nearby concerts, browsing event information, and accessing maps.
+- Story: Finding concerts from multiple artists and venues can require checking several different platforms. This app would organize event discovery in one place.
+- Market: The target audience includes music fans, concertgoers, and people interested in local entertainment.
+- Habit: Users may return when searching for new concerts or checking upcoming events, although usage may be less frequent.
+- Scope: The initial app could focus on browsing events, searching by artist or location, and saving favorites. Integration with external event APIs may increase development complexity.
+
+### Idea 3: Music Player
+
+- Mobile: Smartphones are ideal for listening to music, managing playlists, and controlling playback.
+- Story: Users want a convenient way to organize and listen to their favorite music without navigating complicated interfaces.
+- Market: The audience includes students, commuters, and everyday music listeners. However, established music applications create significant competition.
+- Habit: Music listening is a daily activity, providing opportunities for frequent app usage.
+- Scope: Basic music playback, playlists, and a now-playing screen are manageable initial features. Streaming services, licensing, and background playback introduce additional complexity.
+
+## Final App Idea Chosen: PupMatch
+
+After evaluating our top three ideas, our group selected PupMatch, a swipe-based matchmaking app for dogs.
+
+PupMatch allows owners to create profiles containing their dog's name, breed, age, sex, size, and photos. Users can browse other dog profiles and swipe right to express interest or left to pass.
+
+When two owners mutually express interest, a match is created, allowing them to communicate through an in-app messaging feature.
+
+We chose PupMatch because it offers a unique mobile experience while allowing our group to demonstrate important application development concepts, including user authentication, profile management, data storage, interactive interfaces, navigation, matching logic, and messaging.
+
+Our initial focus will be on developing the core features: profiles, swiping, matching, and chat. Additional features such as advanced filters, push notifications, and breeder verification may be introduced if time permits.
+
+The goal is to create a simple, functional, and user-friendly application that makes connecting with other dog owners easier.
