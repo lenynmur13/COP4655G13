@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific data (breaks other people's setups if committed)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# Build output and derived data
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager local build folders
+.build/
+.swiftpm/
+
+# Crash logs and misc
+*.hmap
+*.xcuserdatad
+timeline.xctimeline
+playground.xcworkspace
