@@ -238,17 +238,17 @@ Wireframe to be added.
 ## User Stories & Sprint Breakdown
 
 ### Summary by Assignee
-- **Christopher Campbell:** #5 (Sprint 1), #8 (Sprint 2), #15 (Sprint 2), #17 (Sprint 2), #19 (Sprint 3)
-- **lenynmur13:** #1 (Sprint 1), #10 (Sprint 2), #13 (Sprint 2), #23 (Sprint 3)
-- **menna-akl:** #4 (Sprint 1), #6 (Sprint 1), #7 (Sprint 2), #9 (Sprint 2), #16 (Sprint 2), #18 (Sprint 3), #21 (Sprint 3)
-- **AlianRodriguez1998:** #2 (Sprint 1), #11 (Sprint 2), #12 (Sprint 2), #22 (Sprint 3), #24 (Sprint 3)
-- **lauracasilla16-create:** #3 (Sprint 1), #14 (Sprint 2), #20 (Sprint 3)
+- [x] **Christopher Campbell:** #5 (Sprint 1), #8 (Sprint 2), #15 (Sprint 2), #17 (Sprint 2), #19 (Sprint 3)
+- [x] **lenynmur13:** #1 (Sprint 1), #10 (Sprint 2), #13 (Sprint 2), #23 (Sprint 3)
+- [x] **menna-akl:** #4 (Sprint 1), #6 (Sprint 1), #7 (Sprint 2), #9 (Sprint 2), #16 (Sprint 2), #18 (Sprint 3), #21 (Sprint 3)
+- [x] **AlianRodriguez1998:** #2 (Sprint 1), #11 (Sprint 2), #12 (Sprint 2), #22 (Sprint 3), #24 (Sprint 3)
+- [x] **lauracasilla16-create:** #3 (Sprint 1), #14 (Sprint 2), #20 (Sprint 3)
 
 ---
 
 ### Sprint 1
 
-#### Story #1 - Wire Authentication and Log In to Firebase
+#### [x] Story #1 - Wire Authentication and Log In to Firebase
 - **Assigned To:** lenynmur13
 - **Story:** As a dog owner, I want to authenticate and log in with Firebase so that my account and pup profile stay securely associated with me.
 - **Acceptance Criteria:**
@@ -258,7 +258,7 @@ Wireframe to be added.
 - **Description of Work:** Configured Firebase Authentication integration and connected user sign-in/session handling to the app backend.
 - **Hours Worked:** 4 hrs
 
-#### Story #2 - Dog Data Readability in Code
+#### [x] Story #2 - Dog Data Readability in Code
 - **Assigned To:** AlianRodriguez1998
 - **Story:** As a developer, I want dog profile data to be cleanly parsed and readable in code so that screens can display accurate pup details.
 - **Acceptance Criteria:**
@@ -268,7 +268,7 @@ Wireframe to be added.
 - **Description of Work:** Verified and structured dog data reading and decoding logic so Swift views can consume dog attributes cleanly.
 - **Hours Worked:** 3 hrs
 
-#### Story #3 - Align UI with Wireframes and Prototypes
+#### [x] Story #3 - Align UI with Wireframes and Prototypes
 - **Assigned To:** lauracasilla16-create
 - **Story:** As a user, I want the app screens to reflect the planned wireframes and prototypes so that navigation and layout feel consistent.
 - **Acceptance Criteria:**
@@ -278,7 +278,7 @@ Wireframe to be added.
 - **Description of Work:** Built initial interface layouts aligned with the team's approved wireframes and screen prototypes.
 - **Hours Worked:** 4 hrs
 
-#### Story #4 - Repository Organization and Setup
+#### [x] Story #4 - Repository Organization and Setup
 - **Assigned To:** menna-akl
 - **Story:** As a team member, I want the GitHub repository and project board organized so that everyone can collaborate smoothly.
 - **Acceptance Criteria:**
@@ -288,7 +288,7 @@ Wireframe to be added.
 - **Description of Work:** Set up and organized the GitHub repository structure, project board, and sprint tracking workflow for Group 13.
 - **Hours Worked:** 3 hrs
 
-#### Story #5 - Project Documentation in README
+#### [x] Story #5 - Project Documentation in README
 - **Assigned To:** Christopher Campbell
 - **Story:** As a team member and reviewer, I want changes and milestone progress documented in `readme.md` so that the project stays accurate and up to date.
 - **Acceptance Criteria:**
@@ -298,7 +298,7 @@ Wireframe to be added.
 - **Description of Work:** Documented project updates, user stories, and sprint progress in `readme.md` in alignment with milestone requirements.
 - **Hours Worked:** 3 hrs
 
-#### Story #6 - Create Shared Xcode Project
+#### [x] Story #6 - Create Shared Xcode Project
 - **Assigned To:** menna-akl
 - **Story:** As a team member, I want a shared Xcode project initialized in the repository so that the team can build and run the iOS app together.
 - **Acceptance Criteria:**
@@ -312,7 +312,7 @@ Wireframe to be added.
 
 ### Sprint 2
 
-#### Story #7 - Define and Complete Data Models
+#### [x] Story #7 - Define and Complete Data Models
 - **Assigned To:** menna-akl
 - **Story:** As a developer, I want complete Swift data models for users, dogs, swipes, matches, and messages so that Firestore reads and writes are strongly typed.
 - **Acceptance Criteria:**
@@ -322,7 +322,7 @@ Wireframe to be added.
 - **Description of Work:** Defined and completed the core Swift data models used across profile setup, matching, and messaging workflows.
 - **Hours Worked:** 4 hrs
 
-#### Story #8 - Set Up App Navigation
+#### [x] Story #8 - Set Up App Navigation
 - **Assigned To:** Christopher Campbell
 - **Story:** As a user, I want intuitive navigation across authentication, profile setup, discovery, matches, and profile tabs so that I can move through the app seamlessly.
 - **Acceptance Criteria:**
@@ -332,7 +332,7 @@ Wireframe to be added.
 - **Description of Work:** Implemented the application's navigation structure and tab/stack routing to connect core screens smoothly.
 - **Hours Worked:** 4 hrs
 
-#### Story #9 - Build Login and Sign-Up Screens (UI)
+#### [x] Story #9 - Build Login and Sign-Up Screens (UI)
 - **Assigned To:** menna-akl
 - **Story:** As a user, I want clean login and sign-up screens so that I can register a new account or sign into an existing one.
 - **Acceptance Criteria:**
@@ -342,7 +342,7 @@ Wireframe to be added.
 - **Description of Work:** Created the SwiftUI user interface for the login and sign-up flows.
 - **Hours Worked:** 3 hrs
 
-#### Story #10 - Update README Documentation
+#### [x] Story #10 - Update README Documentation
 - **Assigned To:** lenynmur13
 - **Story:** As a team member, I want the `readme.md` updated with current sprint progress and specifications so that documentation stays current.
 - **Acceptance Criteria:**
@@ -352,7 +352,7 @@ Wireframe to be added.
 - **Description of Work:** Updated `readme.md` with current project progress and milestone details.
 - **Hours Worked:** 2 hrs
 
-#### Story #11 - Build Dog Profile Creation Form
+#### [x] Story #11 - Build Dog Profile Creation Form
 - **Assigned To:** AlianRodriguez1998
 - **Story:** As a dog owner, I want a form to enter my dog's details and match preferences so that I can set up a complete profile.
 - **Acceptance Criteria:**
@@ -362,7 +362,7 @@ Wireframe to be added.
 - **Description of Work:** Built the dog profile creation form UI and input state handling for registering a pup's details.
 - **Hours Worked:** 4 hrs
 
-#### Story #12 - Photo Upload with PhotosPicker and Firebase Storage
+#### [x] Story #12 - Photo Upload with PhotosPicker and Firebase Storage
 - **Assigned To:** AlianRodriguez1998
 - **Story:** As a dog owner, I want to pick a photo from my library and upload it to Firebase Storage so that my dog's profile displays a real picture.
 - **Acceptance Criteria:**
@@ -372,7 +372,7 @@ Wireframe to be added.
 - **Description of Work:** Integrated `PhotosPicker` and Firebase Storage upload logic to store dog profile photos and retrieve their URLs.
 - **Hours Worked:** 5 hrs
 
-#### Story #13 - Save and Fetch Dog Profiles in Firestore
+#### [x] Story #13 - Save and Fetch Dog Profiles in Firestore
 - **Assigned To:** lenynmur13
 - **Story:** As a dog owner, I want my dog's profile saved to and fetched from Firestore so that profile data persists across sessions and devices.
 - **Acceptance Criteria:**
@@ -382,7 +382,7 @@ Wireframe to be added.
 - **Description of Work:** Implemented Firestore create, save, and fetch operations for dog profile documents.
 - **Hours Worked:** 4 hrs
 
-#### Story #14 - Build Swipe Card View with Gestures and Animations
+#### [x] Story #14 - Build Swipe Card View with Gestures and Animations
 - **Assigned To:** lauracasilla16-create
 - **Story:** As a user, I want interactive swipeable cards with drag, rotation, and like/pass animations so that browsing dogs feels responsive and engaging.
 - **Acceptance Criteria:**
@@ -392,7 +392,7 @@ Wireframe to be added.
 - **Description of Work:** Built the swipeable dog card component with drag gestures, rotation physics, and like/pass animations.
 - **Hours Worked:** 5 hrs
 
-#### Story #15 - Load Swipe Deck Excluding Own Dog and Swiped Dogs
+#### [x] Story #15 - Load Swipe Deck Excluding Own Dog and Swiped Dogs
 - **Assigned To:** Christopher Campbell
 - **Story:** As a user, I want the swipe deck to load eligible dogs from Firestore while skipping my own dog and dogs I have already swiped on so that I don't see duplicates.
 - **Acceptance Criteria:**
@@ -402,7 +402,7 @@ Wireframe to be added.
 - **Description of Work:** Implemented Firestore swipe-deck loading and client/query filtering to exclude the user's own dog and previously swiped profiles.
 - **Hours Worked:** 4 hrs
 
-#### Story #16 - Mutual Like Detection and Match Document Creation
+#### [x] Story #16 - Mutual Like Detection and Match Document Creation
 - **Assigned To:** menna-akl
 - **Story:** As a dog owner, I want a Match record created when two owners swipe right on each other so that we can connect and message.
 - **Acceptance Criteria:**
@@ -412,7 +412,7 @@ Wireframe to be added.
 - **Description of Work:** Implemented mutual right-swipe detection logic and Firestore `Match` document creation upon a match.
 - **Hours Worked:** 4 hrs
 
-#### Story #17 - Build Matches List Screen
+#### [x] Story #17 - Build Matches List Screen
 - **Assigned To:** Christopher Campbell
 - **Story:** As a matched user, I want to view a list of all my dog's matches so that I can see who we matched with and open a conversation.
 - **Acceptance Criteria:**
@@ -426,7 +426,7 @@ Wireframe to be added.
 
 ### Sprint 3
 
-#### Story #18 - Build Chat Screen UI
+#### [x] Story #18 - Build Chat Screen UI
 - **Assigned To:** menna-akl
 - **Story:** As a matched user, I want a chat interface with message bubbles and a text input bar so that I can read and compose messages easily.
 - **Acceptance Criteria:**
@@ -436,7 +436,7 @@ Wireframe to be added.
 - **Description of Work:** Created the SwiftUI chat screen layout with message bubbles, scroll behavior, and message input bar.
 - **Hours Worked:** 4 hrs
 
-#### Story #19 - Add Real-Time Messaging with Firestore Listeners
+#### [x] Story #19 - Add Real-Time Messaging with Firestore Listeners
 - **Assigned To:** Christopher Campbell
 - **Story:** As a matched user, I want messages to send and appear in real time using Firestore listeners so that conversations feel live and immediate.
 - **Acceptance Criteria:**
@@ -446,7 +446,7 @@ Wireframe to be added.
 - **Description of Work:** Implemented real-time message sending and Firestore snapshot listeners for live chat updates.
 - **Hours Worked:** 5 hrs
 
-#### Story #20 - Add Filters for Breed, Age Range, and Distance
+#### [x] Story #20 - Add Filters for Breed, Age Range, and Distance
 - **Assigned To:** lauracasilla16-create
 - **Story:** As a user, I want to filter potential matches by breed, age range, and distance so that I can find compatible dogs faster.
 - **Acceptance Criteria:**
@@ -456,7 +456,7 @@ Wireframe to be added.
 - **Description of Work:** Implemented filter controls and filtering logic for breed, age range, and distance.
 - **Hours Worked:** 4 hrs
 
-#### Story #21 - Add Profile Editing and Dog Profile Deletion
+#### [x] Story #21 - Add Profile Editing and Dog Profile Deletion
 - **Assigned To:** menna-akl
 - **Story:** As a dog owner, I want to edit my dog's profile information or delete a dog profile so that my account stays accurate.
 - **Acceptance Criteria:**
@@ -466,7 +466,7 @@ Wireframe to be added.
 - **Description of Work:** Added profile editing and dog profile deletion functionality backed by Firestore updates.
 - **Hours Worked:** 4 hrs
 
-#### Story #22 - UI Polish (App Icon, Colors, Fonts, Empty & Loading States)
+#### [x] Story #22 - UI Polish (App Icon, Colors, Fonts, Empty & Loading States)
 - **Assigned To:** AlianRodriguez1998
 - **Story:** As a user, I want polished branding, typography, colors, and loading/empty states so that the app feels complete and reliable.
 - **Acceptance Criteria:**
@@ -476,7 +476,7 @@ Wireframe to be added.
 - **Description of Work:** Applied visual polish across the app including app icon, cohesive colors/fonts, loading indicators, and empty states.
 - **Hours Worked:** 4 hrs
 
-#### Story #23 - Physical iPhone Testing and Bug Fixes
+#### [x] Story #23 - Physical iPhone Testing and Bug Fixes
 - **Assigned To:** lenynmur13
 - **Story:** As a team member, I want to test PupMatch on a physical iPhone and fix bugs found so that real-device behavior is verified before demo day.
 - **Acceptance Criteria:**
@@ -486,7 +486,7 @@ Wireframe to be added.
 - **Description of Work:** Tested the build on a physical iPhone and resolved device-specific bugs and UI/runtime issues.
 - **Hours Worked:** 4 hrs
 
-#### Story #24 - Finalize README and Create Demo Screenshots/Video
+#### [x] Story #24 - Finalize README and Create Demo Screenshots/Video
 - **Assigned To:** AlianRodriguez1998
 - **Story:** As a team, we want a finalized `readme.md` with demo screenshots/video so that our capstone submission and Demo Day presentation are ready.
 - **Acceptance Criteria:**
@@ -514,4 +514,3 @@ Our priority is to develop a functional, reliable application that demonstrates 
 Our goal is to develop a simple and interactive mobile application that helps dog owners connect through profile discovery, mutual matching, and messaging.
 
 By focusing on an intuitive user experience and manageable core features, PupMatch will demonstrate important mobile development concepts while providing a foundation for future improvements.
-```[cite: 20]
