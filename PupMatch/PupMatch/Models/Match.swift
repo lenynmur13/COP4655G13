@@ -1,10 +1,3 @@
-//
-//  Match.swift
-//  PupMatch
-//
-//  Created by Lenyn Murillo on 11/19/26.
-//
-
 import Foundation
 import FirebaseFirestore
 
@@ -14,4 +7,5 @@ struct Match: Codable, Identifiable {
     var dogs: [String]                   // the two dog IDs
     var lastMessage: String
     var lastMessageTime: Date?
+    var unreadBy: [String]?              // owner uids who haven't opened the newest message or new match; nil on older matches
 }

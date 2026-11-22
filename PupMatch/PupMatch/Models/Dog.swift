@@ -1,10 +1,3 @@
-//
-//  Dog.swift
-//  PupMatch
-//
-//  Created by Lenyn Murillo on 11/19/26.
-//
-
 import Foundation
 import FirebaseFirestore
 
@@ -21,6 +14,8 @@ struct Dog: Codable, Identifiable {
     var sex: DogSex
     var bio: String
     var city: String
+    var latitude: Double?                // saved from the owner's location; nil if location was off
+    var longitude: Double?
     var photoData: String?               // base64 JPEG, since we skipped Storage
     @ServerTimestamp var createdAt: Date?
 }
